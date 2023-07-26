@@ -1,0 +1,67 @@
+p{
+	/* single line comment */
+}
+
+/* p{
+	multiple line comment
+} */
+
+/* priority: inline>internal>external */
+
+
+/* h1{
+    color:orange;
+} */
+
+p{
+    color:orange;
+}
+
+/* CSS Selectors */
+
+/* priority: id>class>element */
+
+/* Element Selector */
+h1{
+    color:orange;
+}
+
+/* Id Selector */
+#uni
+{
+	color:green;
+}
+
+/* Class Selector */
+.g
+{
+	color:blue;
+} 
+
+/* Universal Selector */
+/* *
+{
+	color:purple;
+} */
+
+/* Group Selector */
+/* h1,h2
+{
+	color:yellow;
+} */
+
+/* Descendant Combinator Selector */
+#out .in{
+	color: pink;
+}
+
+/* Descendant Combinator Selector */
+#out>.in{
+	color: brown;
+}
+
+/* Pseudo class Selector */
+h4:hover
+{
+	color:blue;
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+<form>
+    <div>
+	<!--center tag used for writing in center-->
+	<center> <h1>Registration Form</h1> </center>
+	<hr>
+	<label>Firstname: </label>
+	<input type="text" name="firstname" placeholder="Firstname" size="10" required /> <br> <br>
+	<label>Lastname: </label>
+	<input type="text" name="lastname" placeholder="Lastname" size="10" required /> <br> <br>
+	<div>
+	<label>
+	Department:
+	</label>
+	
+	<select>
+	<option value="Couse">Department</option>
+	<option value="BCA">Management</option>
+	<option value="BBA">Human Resource</option>
+	<option value="B.Tech">Customer Support</option>
+	<option value="MBA">Development</option>
+	<option value="MCA">Business</option>
+	<option value="M.Tech">Corporate Finance</option>
+	</select>
+	</div> <br>
+	<div>
+	<label>
+	Gender:
+	</label> <br>
+	<input type="radio" value="Male" name="gender" checked > Male <br>
+	<input type="radio" value="Female" name="gender" checked > Female <br>
+	<input type="radio" value="Other" name="gender" checked > Other <br>
+	</div>
+	<br>
+	<label>
+	Phone:
+	</label>
+	<input type="text" name="country code" placeholder="Country Code" value="+91" size="2"/>
+	<input type="tel" name="phone" size="25" pattern="[0-9]{4}-[0-9]{6}" placeholder="1234-567890" required>
+	<br> <br>
+	Current Address:
+	<textarea cols="100" rows="4" placeholder="Current Address" value="address" required>
+	</textarea> <br> <br>
+	<label for="myfile">Drop your Resume: </label>
+	<input type="file" id="myfile" name="myfile"> <br> <br>
+	<label for="email"><b>Email</b></label>
+	<input type="text" id="Enter Email" name="email" required> <br> <br>
+	<label for="psw"><b>Password</b></label>
+	<input type="password" placeholder="Enter Password" name="psw" required> <br> <br>
+	<label for="psw-repeat"><b>Re-type Password</b></label>
+	<input type="password" placeholder="Retype Password" name="psw-repeat" required> <br> <br>
+	<button type="submit" class="registerbtn">Register</button>
+	</div>
+
+
+</form>
+</body>
+</html>
